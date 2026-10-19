@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CARTUNIZE</title>
+<meta name="description" content="Professional tools, plugins and license keys for creators and studios.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="notice hide" id="notice"></div>
+
+<header class="top">
+  <div class="wrap">
+    <a href="#home" class="logo" id="logo"><span>CARTUNIZE</span></a>
+    <div class="actions">
+      <button class="icon-btn" id="openSearch" aria-label="Search">🔍</button>
+      <button class="icon-btn" id="openMenu" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-label="Menu">
+  <div class="dh">
+    <a href="#home" class="logo" id="logo2"><span>CARTUNIZE</span></a>
+    <button class="icon-btn" id="closeMenu" aria-label="Close">✕</button>
+  </div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#plugin" class="hl">⚡ Master Panel</a>
+    <a href="#assets">Animation Assets</a>
+    <a href="#learn">Courses</a>
+    <a href="#downloads">Downloads</a>
+    <a href="#support">Support</a>
+  </nav>
+  <div class="theme-box">
+    <div><b>Appearance</b><small id="themeLabel">Night Mode</small></div>
+    <button id="themeBtn" aria-label="Toggle theme">☀️</button>
+  </div>
+  <a class="login" href="admin.html">Admin Login</a>
+</aside>
+
+<div class="search" id="search">
+  <div class="row">
+    <input id="q" placeholder="Search tools, videos, downloads..." autocomplete="off">
+    <button class="icon-btn" id="closeSearch" aria-label="Close search">✕</button>
+  </div>
+  <div class="res" id="results"></div>
+</div>
+
+<main class="wrap" id="home">
+
+  <div class="hero" id="hero">
+    <div class="badges">
+      <span class="pill" id="hb1">🔑 100% Genuine License Keys</span>
+      <span class="pill gold" id="hb2">👑 10,000+ Creators Trust Us</span>
+    </div>
+    <div class="in">
+      <h1 id="hTitle"></h1>
+      <p id="hSub"></p>
+      <a class="btn" id="hBtn" href="#tools">Explore Tools</a>
+    </div>
+  </div>
+
+  <div class="trust" id="trust"></div>
+
+  <section id="tools">
+    <div class="sh"><h2><em>🧰</em><span id="toolsTitle">Tools</span></h2><a href="#tools">View All</a></div>
+    <p class="sub" id="toolsSub"></p>
+    <div class="tools" id="toolsList"></div>
+  </section>
+
+  <section id="plans">
+    <div class="sh"><h2><em>⚡</em><span id="plansTitle">Choose Plans</span></h2></div>
+    <p class="sub" id="plansSub"></p>
+    <div class="switch" id="cycle">
+      <button class="on" data-c="m">Monthly</button>
+      <button data-c="y">Yearly</button>
+    </div>
+    <div class="save">Save more with yearly billing</div>
+    <div class="plans" id="plansList"></div>
+  </section>
+
+  <section id="plugin">
+    <div class="promo">
+      <div class="tag" id="pTag"></div>
+      <h3 id="pTitle"></h3>
+      <div class="ps" id="pSub"></div>
+      <p id="pDesc"></p>
+      <div class="meta" id="pMeta"></div>
+      <a class="btn block" id="pBtn" href="#" target="_blank" rel="noopener">Download Plugin</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="sh"><h2><em>💎</em>Why Choose Us?</h2></div>
+    <div class="why" style="margin-top:14px">
+      <div><i>✅</i>100% Genuine Keys</div>
+      <div><i>⚡</i>Instant Delivery</div>
+      <div><i>♾️</i>Lifetime &amp; Subscription Options</div>
+      <div><i>🎧</i>24/7 Customer Support</div>
+    </div>
+  </section>
+
+  <section id="learn">
+    <div class="sh"><h2><em>🎬</em><span id="learnTitle">Video Tutorials</span></h2></div>
+    <p class="sub" id="learnSub"></p>
+    <div class="lessons" id="videosList"></div>
+  </section>
+
+  <section id="downloads">
+    <div class="sh"><h2><em>⬇️</em><span id="downloadsTitle">Downloads</span></h2></div>
+    <p class="sub" id="downloadsSub"></p>
+    <div class="list" id="downloadsList"></div>
+  </section>
+
+  <section id="assets">
+    <div class="sh"><h2><em>🎞️</em><span id="assetsTitle">Assets</span></h2></div>
+    <p class="sub" id="assetsSub"></p>
+    <div class="cards" id="assetsList"></div>
+  </section>
+
+  <section id="blog">
+    <div class="sh"><h2><em>📰</em><span id="blogTitle">Latest Updates</span></h2></div>
+    <p class="sub" id="blogSub"></p>
+    <div class="posts" id="postsList"></div>
+  </section>
+</main>
+
+<footer id="support">
+  <div class="wrap">
+    <a href="#home" class="logo" style="justify-content:center" id="logo3"><span>CARTUNIZE</span></a>
+    <p class="fp" id="fText"></p>
+
+    <div class="fl">
+      <div><h4>Shop</h4><a href="#tools">Toolkits</a><a href="#plans">License Keys</a><a href="#assets">Add-ons</a><a href="#plans">Bundles</a></div>
+      <div><h4>Learn</h4><a href="#learn">All Tutorials</a><a href="#learn">Video Lessons</a><a href="#blog">Blog</a></div>
+      <div><h4>Company</h4><a href="#home">About Us</a><a href="#blog">Updates</a><a href="#support" data-contact>Contact Us</a></div>
+      <div><h4>Support</h4><a href="#support" data-contact>Help Center</a><a href="#plans">License Activation</a><a href="#learn">Installation Guide</a></div>
+    </div>
+
+    <div class="nl">
+      <h4>Subscribe to Our Newsletter</h4>
+      <p>Get the latest updates, new toolkits and offers in your inbox.</p>
+      <form id="nlForm">
+        <input type="email" id="nlEmail" placeholder="Enter your email address" required>
+        <button class="btn" type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="stats" id="stats"></div>
+    <div class="soc" id="soc"></div>
+    <div class="copy">© <span id="yr"></span> <span id="copyText"></span></div>
+  </div>
+</footer>
+
+<nav class="bnav">
+  <a href="#home" class="on" data-nav><span>🏠</span>Home</a>
+  <a href="#tools" data-nav><span>🧰</span>Tools</a>
+  <a href="#plans" class="mid" data-nav><span>🧭</span>Explore</a>
+  <a href="#blog" data-nav><span>📄</span>Blog</a>
+  <a href="admin.html"><span>👤</span>Account</a>
+</nav>
+
+<div class="modal" id="modal">
+  <div class="box">
+    <div class="mh"><span id="mTitle"></span><button class="icon-btn" id="mClose" aria-label="Close">✕</button></div>
+    <div class="frame" id="mFrame"></div>
+    <div class="md" id="mDesc"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+<script src="firebase-config.js"></script>
+<script src="demo-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
